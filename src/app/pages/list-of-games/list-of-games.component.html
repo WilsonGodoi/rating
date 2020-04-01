@@ -1,17 +1,24 @@
-<button
-  icon="{{ isRandom ? 'pi pi-times' : 'pi pi-caret-right' }}"
-  class="{{ isRandom ? 'ui-button-danger' : '' }}"
-  iconPos="right"
-  pButton
-  type="button"
-  label="RANDOM RATING"
-  (click)="handleClick()"
-></button>
-<div *ngFor="let game of games | orderByField: 'rating'" class="p-grid">
-  <div class="p-col-6">
+<header class="text-center">
+  <h2>My Favorite Games</h2>
+  <button
+    icon="{{ isRandom ? 'pi pi-times' : 'pi pi-caret-right' }}"
+    class="{{ isRandom ? 'ui-button-danger' : '' }}"
+    iconPos="right"
+    pButton
+    type="button"
+    label="RANDOM RATING      "
+    (click)="handleClick()"
+  ></button>
+</header>
+<hr />
+<div
+  *ngFor="let game of games | orderByField: 'rating'"
+  class="p-grid p-justify-center"
+>
+  <div class="p-col-fixed" style="width:180px">
     {{ game.name }}
   </div>
-  <div class="p-col-6">
+  <div class="p-col-fixed text-right" style="width:120px">
     <p-rating
       [(ngModel)]="game.rating"
       name="game.id"
