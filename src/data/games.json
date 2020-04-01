@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "GOD OF WAR",
+    "rating": 2
+  },
+  {
+    "id": 2,
+    "name": "STREET FIGHTER",
+    "rating": 4
+  },
+  {
+    "id": 3,
+    "name": "STARFOX",
+    "rating": 2
+  },
+  {
+    "id": 4,
+    "name": "MORTAL KOMBAT",
+    "rating": 2
+  },
+  {
+    "id": 5,
+    "name": "SUPER MARIO",
+    "rating": 1
+  },
+  {
+    "id": 6,
+    "name": "TEKKEN",
+    "rating": 5
+  },
+  {
+    "id": 7,
+    "name": "FORZA",
+    "rating": 4
+  },
+  {
+    "id": 8,
+    "name": "GRAN TURISMO",
+    "rating": 3
+  },
+  {
+    "id": 9,
+    "name": "SONIC",
+    "rating": 4
+  },
+  {
+    "id": 10,
+    "name": "ALEX KID",
+    "rating": 1
+  },
+  {
+    "id": 11,
+    "name": "PACMAN",
+    "rating": 2
+  },
+  {
+    "id": 12,
+    "name": "SEAQUEST",
+    "rating": 5
+  }
+]
